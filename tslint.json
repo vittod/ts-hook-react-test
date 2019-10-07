@@ -1,6 +1,6 @@
 {
     "extends": [
-        "tslint:recommended", "tslint-react"
+        "tslint:recommended", "tslint-react", "tslint-config-prettier"
     ],
     "rules": {
         "ordered-imports": false,
@@ -17,6 +17,7 @@
           "no-trailing-whitespace": false,
           "jsx-no-multiline-js": false,
           "interface-name": false,
-          "arrow-parens": false
+          "arrow-parens": false,
+          "indent": [true, "spaces", 2]
     }
 }
